@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap'); /* Manuscrita */
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Raleway:wght@900&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* MENÚ */
+
+.navbar,     navbar-expand-xl {
+    background-color: #541726;
+}
+
+.nav-link, active {
+    color: #C7A34D;
+}
+
+.nav-link:hover, active:hover {
+    color: #fff;
+    transition: 0.8s;
+    transform: scale(1.1);
+}
+
+.navbar li ul {
+    display:none;
+    list-style:none;
+}
+
+
+/* BANNER CARROUSEL */
+
+
+
+.container, s0 {
+    padding: 100px 0px;
+}
+
+.link   {
+    background-color: #541726; /* Bordó */
+    border: none;
+    color: #C7A34D;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.bannerPrincipal {
+    background-image: url(assets/banner.jpg);
+    background-size: 100%;
+}
+
+.link:hover {
+    background-color: #673918; /* Green */
+    color: white;
+  }
+
+    .title {
+    font-family: 'Raleway', sans-serif;
+color: #7B4A0F;
+font-size: 32px;}
+
+
+.text {
+    text-align: justify;
+    padding: 10px 60px 10px 0px;
+
+}
+
+.col, boxOne {
+    margin: auto;
+    padding: auto;
+}
+
+.d-flex, justify-content-md-center {
+    color: #541726;
+    padding-bottom: 20px;
+}
+
+
+/* Tarjetas de productos */
+.producto {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: 14px;
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+
+  }
+  
+  .precio {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .producto button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #C7A34D;
+    font-family: 'Cabin', sans-serif;
+
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .producto button:hover {
+    opacity: 0.7;
+  }
+
+  .producto:hover {
+      transform: scale(1.1);
+      transition: 1s;
+  }
+
+ .footerBottom   {
+    background-color: #541726;
+    padding: 20px;
+
+}
+
+.ulfooterd, li {
+    list-style-type: none;
+    padding-top: 10px;
+    color: #fff;
+    flex-wrap: wrap;
+    font-size: 12px;
+}
+
+.FormSend {
+    padding: auto;
+    color: #000;
+    background-color: #C7A34D;
+    }
+
+    .f1:visited {
+        color: white;
+    }
+
+
+    .wapp {
+        position: fixed;
+        right: 0%;
+        bottom: 0%;
+    }
+
+    .iconFb {
+        position: fixed;
+        left: 0rem;
+        top: 20%;
+        background-color: #C7A34D;
+        transition: 1s;
+        border-radius: 0% 25% 25% 0%;
+
+    }
+
+    .iconIg {
+        position: fixed;
+        left: 0rem;
+        top: 27%;
+        border-radius: 0% 25% 25% 0%;
+        background-color: #C7A34D;
+        transition: 1s;
+
+    }
+    
+    .iconTiktok {
+        position: fixed;
+        left: 0rem;
+        top: 34%;
+        border-radius: 0% 25% 25% 0%;
+transition: 1s;
+background-color: #C7A34D;
+    }
+
+.iconFb:hover{
+   background-color: #673918;
+    }
+
+    .iconIg:hover{
+        background-color: #673918;
+         }
+
+         .iconTiktok:hover{
+            background-color: #673918;
+             }
+
+
+
+/* PALETA DE COLORES */
+/* 
+
+AMARILLOS
+----------
+#C7A34D
+#966427
+#7B4A0F
+
+
+BORDOS
+----------
+#541726
+#420517
+*/
